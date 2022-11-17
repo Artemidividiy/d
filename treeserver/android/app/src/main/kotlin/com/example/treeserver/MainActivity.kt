@@ -1,4 +1,4 @@
-package com.uselessxiv.treeserver
+package com.example.treeserver
 
 import io.flutter.embedding.android.FlutterActivity
 

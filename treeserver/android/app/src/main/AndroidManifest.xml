@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.uselessxiv.treeserver">
+    package="com.example.treeserver">
    <application
         android:label="treeserver"
         android:name="${applicationName}"
