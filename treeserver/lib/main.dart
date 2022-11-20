@@ -1,6 +1,8 @@
 import 'package:flex_color_scheme/flex_color_scheme.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod/riverpod.dart';
 import 'package:treeserver/app/logger/model.dart';
+import 'package:treeserver/app/splash/view.dart';
 
 import 'package:treeserver/services/initializer/wrapper.dart';
 
@@ -24,7 +26,7 @@ void main() async {
   await init(null);
   await InitializerWrapper.init();
 
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
